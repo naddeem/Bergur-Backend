@@ -67,7 +67,7 @@ connectPassport();
 import userRoute from "./routes/user.js";
 import orderRoute from "./routes/order.js";
 
-app.use("/fun/spice", userRoute);
-app.use("/fun/spice", orderRoute);
+app.use("/", userRoute);
+app.use("/", orderRoute);
 
 app.use(errorMiddleware);
