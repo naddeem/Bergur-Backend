@@ -11,5 +11,5 @@ app.get("/", (req, res, next) => {
   res.send("<h1>Server is working</h1>");
 });
 app.listen(process.env.PORT, () =>
-  console.log(`Server is working on http://localhost:${process.env.PORT}`)
+  
 );
